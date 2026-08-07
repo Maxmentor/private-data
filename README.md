@@ -65,11 +65,11 @@ Use the following credentials to log in for the first time:
 
 *(Click below to view the application screenshots)*
 
-* [Screenshot 1: Login & Authentication Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/1.png))
-* [Screenshot 2: Admin/User Dashboard Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/2.png))
-* [Screenshot 3: Document Management & Photo Viewer Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/3.png))
-* [Screenshot 4: Account Vault & Categories Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/4.png))
-* [Screenshot 5: Admin Member Management Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/5.png))
+* [Screenshot 1: Login & Authentication Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/1.png)
+* [Screenshot 2: Admin/User Dashboard Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/2.png)
+* [Screenshot 3: Document Management & Photo Viewer Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/3.png)
+* [Screenshot 4: Account Vault & Categories Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/4.png)
+* [Screenshot 5: Admin Member Management Link]([https://www.google.com/search?q=%23](https://raw.githubusercontent.com/Maxmentor/private-data/refs/heads/main/screenshots/5.png)
 
 ---
 
