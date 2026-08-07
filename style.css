@@ -1,0 +1,215 @@
+/* ==========================================================
+   PREMIUM CORPORATE LIGHT THEME (SHARP EDGES / NO ROUNDING)
+   ========================================================== */
+
+/* 1. CLEAN MODERN FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.bg-light2{
+     background-color: #edf4f8 !important; 
+}
+/* 2. GLOBAL LIGHT BACKGROUND & TEXT */
+body, html {
+    background-color: #edf4f8 !important; /* Soft light slate background */
+    color: #1e293b !important; /* Dark slate text for readability */
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Force Light Mode Overrides */
+.bg-dark, .bg-secondary, .bg-light, .bg-white { 
+   background-color: #edf4f8 !important; 
+}
+h1, h2, h3, h4, h5, h6, strong, b { 
+    color: #0f172a !important; /* Deep dark blue/black for headings */
+}
+
+/* 3. SHARP NAVBAR */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #e2e8f0 !important;
+    padding: 15px 0;
+    box-shadow: none !important;
+}
+.navbar-brand {
+    color: #0f172a !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.navbar-text { color: #64748b !important; }
+
+/* 4. SHARP CARDS (NO ROUND CORNERS, SUBTLE SHADOW) */
+.card {
+     background-color: #edf4f8 !important; 
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 0px !important; /* 0px ROUNDING */
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.04) !important; /* Sharp elegant shadow */
+}
+.card-header {
+    background-color: #f8fafc !important;
+    border-bottom: 1px solid #cbd5e1 !important;
+    border-radius: 0px !important; /* 0px ROUNDING */
+    padding: 20px;
+}
+.card-header h4 {
+    color: #0f172a !important;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.card-body {
+    background-color: #edf4f8 !important; 
+}
+
+/* 5. FORMS & INPUTS (SQUARE & CRISP) */
+label {
+    color: #475569 !important;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.form-control, .form-select, textarea {
+    background-color: #ffffff !important;
+    border: 1px solid #94a3b8 !important;
+    border-radius: 0px !important; /* NO ROUNDING */
+    color: #0f172a !important;
+    padding: 12px 15px;
+    transition: all 0.2s ease;
+}
+.form-control:focus, .form-select:focus, textarea:focus {
+    border-color: #2563eb !important; /* Premium Blue outline */
+    box-shadow: 0 0 0 1px #2563eb !important; /* Sharp focus box */
+    outline: none;
+}
+::placeholder { color: #94a3b8 !important; }
+
+/* 6. BUTTONS (SQUARE, SOLID COLORS) */
+.btn {
+    border-radius: 0px !important; /* SHARP CORNERS */
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    padding: 12px 20px;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Primary Button (Corporate Blue) */
+.btn-primary { background-color: #2563eb !important; color: #ffffff !important; }
+.btn-primary:hover { background-color: #1d4ed8 !important; }
+
+/* Success / Add Button (Emerald Green) */
+.btn-success { background-color: #059669 !important; color: #ffffff !important; }
+.btn-success:hover { background-color: #047857 !important; }
+
+/* Danger / Delete Button (Rose Red) */
+.btn-danger, .btn-outline-danger { background-color: #e11d48 !important; color: #ffffff !important; }
+.btn-danger:hover, .btn-outline-danger:hover { background-color: #be123c !important; }
+
+/* Warning / Edit Button (Amber) */
+.btn-warning { background-color: #d97706 !important; color: #ffffff !important; }
+.btn-warning:hover { background-color: #b45309 !important; }
+
+/* Secondary / Back Button (Slate Gray) */
+.btn-secondary, .btn-dark, .btn-outline-primary { 
+    background-color: #475569 !important; 
+    color: #ffffff !important; 
+}
+.btn-secondary:hover, .btn-dark:hover, .btn-outline-primary:hover { 
+    background-color: #334155 !important; 
+}
+
+/* 7. DATA TABLES (CLEAN LIGHT THEME) */
+.table-responsive {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 0px !important; /* SHARP */
+    padding: 0;
+}
+.table {
+    margin: 0;
+    color: #334155 !important;
+}
+.table thead th, .table-dark th {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+    border-bottom: 2px solid #cbd5e1 !important;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 15px;
+    border-top: none !important;
+}
+.table tbody tr td {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+    padding: 15px;
+    vertical-align: middle;
+}
+.table tbody tr:hover td {
+    background-color: #f8fafc !important; /* Light gray on hover */
+}
+/* Fix for action buttons sticking together on mobile */
+.table tbody tr td .btn {
+    margin-top: 5px; 
+}
+
+/* 8. ALERTS (Success & Error Messages) */
+.alert {
+    border-radius: 0px !important; /* SHARP */
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+.alert-success {
+    background-color: #ecfdf5 !important;
+    border: 1px solid #10b981 !important;
+    color: #065f46 !important;
+}
+.alert-danger {
+    background-color: #fff1f2 !important;
+    border: 1px solid #f43f5e !important;
+    color: #9f1239 !important;
+}
+
+/* 9. MODALS (Pop-ups) */
+.modal-content {
+    background-color: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 0px !important; /* SHARP */
+}
+.modal-header {
+    border-bottom: 1px solid #cbd5e1 !important;
+    background-color: #f8fafc !important;
+    border-radius: 0px !important;
+}
+.modal-title { color: #0f172a !important; font-weight: 700; }
+.modal-footer {
+    border-top: 1px solid #cbd5e1 !important;
+    background-color: #f8fafc !important;
+}
+.btn-close { filter: none; } /* Default dark close button */
+
+/* 10. SCROLLBAR */
+::-webkit-scrollbar { 
+    width: 8px; 
+    height: 8px; 
+}
+::-webkit-scrollbar-track { 
+    background: #f1f5f9; 
+    border-left: 1px solid #e2e8f0;
+}
+::-webkit-scrollbar-thumb { 
+    background: #cbd5e1; 
+    border-radius: 0px; /* SHARP */
+}
+::-webkit-scrollbar-thumb:hover { 
+    background: #94a3b8; 
+}
